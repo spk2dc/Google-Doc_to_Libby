@@ -1,0 +1,16 @@
+﻿{
+  "Name": "search bar",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "8uGLoMGB4U2DO8PeFHAZDg",
+  "Reference": "hy4MgBdiKE-bmhKCXssDdA/8uGLoMGB4U2DO8PeFHAZDg",
+  "ParentRef": "hy4MgBdiKE-bmhKCXssDdA/VmZu3IM2WEC3Aj0lq9siKA",
+  "Created": "2023-10-22T18:16:51.6996277Z",
+  "Updated": "2023-10-22T18:19:54.3526851Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="J7V8l-d08EeIHhnJOL9XIA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CvElementArea="1688, 318, 227, 67" CvTextArea="1716, 342, 168, 21" CvTextArgument="SHOW 8 TITLES" CvType="Button" DesignTimeRectangle="1689, 321, 225, 61" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'SHOW 8 TITLES'" FullSelectorArgument="&lt;ctrl name='Libby - Search Results' role='document' /&gt;&lt;ctrl role='push button' aastate='focused, focusable, opaque' text='SHOW 8 TITLES' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Libby - Search Results' role='document' /&gt;&lt;ctrl role='push button' aastate='focused, focusable, opaque' text='SHOW * TITLES' check:text='SHOW * TITLES' /&gt;" Guid="492aaa3b-d2d4-414e-9488-0502d243629a" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Libby - Search Results - Google Chrome' /&gt;" SearchSteps="FuzzySelector" SelectionStrategy="AA" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a22458675b4444812cbea2105ac1f673.png" xmlns="">0q3SADaXqskahhXNHgXwkJQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

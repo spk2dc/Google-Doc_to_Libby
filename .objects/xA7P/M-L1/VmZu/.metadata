@@ -1,0 +1,12 @@
+﻿{
+  "Name": "site",
+  "Type": "Screen",
+  "Id": "VmZu3IM2WEC3Aj0lq9siKA",
+  "Reference": "hy4MgBdiKE-bmhKCXssDdA/VmZu3IM2WEC3Aj0lq9siKA",
+  "ParentRef": "hy4MgBdiKE-bmhKCXssDdA/M-L1QPspXkmSwMTzq21d6A",
+  "Created": "2023-10-22T18:06:10.0975057Z",
+  "Updated": "2023-10-22T18:06:10.0975057Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Name": "deep search",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "ipi2gZKvp06Pz5pTqsn3cw",
+  "Reference": "hy4MgBdiKE-bmhKCXssDdA/ipi2gZKvp06Pz5pTqsn3cw",
+  "ParentRef": "hy4MgBdiKE-bmhKCXssDdA/VmZu3IM2WEC3Aj0lq9siKA",
+  "Created": "2023-10-22T18:25:28.4571306Z",
+  "Updated": "2023-10-22T18:27:30.797212Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

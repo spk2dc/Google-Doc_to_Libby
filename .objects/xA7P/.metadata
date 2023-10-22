@@ -1,0 +1,11 @@
+﻿{
+  "Name": "Libby",
+  "Type": "App",
+  "Id": "xA7Pgd5EHUmc-T0MZhz8EQ",
+  "Reference": "hy4MgBdiKE-bmhKCXssDdA/xA7Pgd5EHUmc-T0MZhz8EQ",
+  "Created": "2023-10-22T18:06:02.1903831Z",
+  "Updated": "2023-10-22T18:06:02.1903831Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
