@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="H2RZaxdncUWeLhVEl_5I4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://libbyapp.com/search/fairfax/search/scope-deep/query-The%20Brain's%20Way%20of%20Healing%3A%20Remarkable%20Discoveries%20and%20Recoveries%20from%20the%20Frontiers%20of%20Neuroplasticity/page-1" DesignTimeRectangle="934, 716, 128, 29" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Play Sample'" FullSelectorArgument="&lt;webctrl tag='SPAN' innertext='Play Sample' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' innertext='Play Sample' check:text='Play Sample' /&gt;" Guid="648a4050-d7d2-4b77-9a34-92a234e0f758" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Libby - Search Results' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="729, 856, 36, 36" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl tag='svg' class='icon shibui-graphic' idx='1' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='svg' class='icon shibui-graphic' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="484317ee7e7f897462c0945d52609a6b.png" xmlns="">0wZMOo0KG6km40XcqKqB0GA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

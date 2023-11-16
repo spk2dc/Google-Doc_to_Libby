@@ -1,5 +1,5 @@
 {
-  "name": "Google Doc to Libby",
+  "name": "Libby",
   "projectId": "855521c3-dab9-44a8-b5db-efa22b338b4c",
   "description": "Request audiobooks on a Google Doc list from Libby",
   "main": "Main.xaml",

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QepOujK4R0OkxMSP2FwJwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://libbyapp.com/search/fairfax/search/scope-deep/query-The%20Brain's%20Way%20of%20Healing%3A%20Remarkable%20Discoveries%20and%20Recoveries%20from%20the%20Frontiers%20of%20Neuroplasticity/page-1" DesignTimeRectangle="694, 624, 204, 204" DesignTimeScaleFactor="1.25" ElementType="Icon" FriendlyName="'IMG'" FullSelectorArgument="&lt;webctrl tag='IMG' aaname='Audiobook: &amp;apos;The Brain&amp;apos;s Way of Healing&amp;apos;. Cover image.' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='IMG' aaname='Audiobook: &amp;apos;The Brain&amp;apos;s Way of Healing&amp;apos;. Cover image.' /&gt;" Guid="328a0e2b-78f0-4693-878d-72c54be05c5b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Libby - Search Results' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="694, 545, 238, 32" ElementType="Text" FriendlyName="'Norman Doidge, M.D.'" FullSelectorArgument="&lt;webctrl tag='A' innertext='Norman Doidge, M.D.' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='A' innertext='Norman Doidge, M.D.' check:text='Norman Doidge, M.D.' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="62498f665c81c152f2e043d3f009a8d1.png" xmlns="">0iGCeYn74fkiZRF1YhtcB9A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

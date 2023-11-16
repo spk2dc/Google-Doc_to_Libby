@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fBWFara3CE65oaeR6qwp0w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://libbyapp.com/search/fairfax" DesignTimeRectangle="1739, 253, 35, 35" DesignTimeScaleFactor="1.25" ElementType="Icon" FriendlyName="'SVG'" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;&lt;webctrl parentid='shibui-form-input-rim-0001' tag='svg' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='submit' /&gt;&lt;webctrl parentid='shibui-form-input-rim-0001' tag='svg' /&gt;" Guid="6352c9c8-ad5e-4d5f-ae49-1d545cd40d60" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Libby - Search' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e7efd8dc696090318145b8ec37b32841.png" xmlns="">09lz0t9t1SU-PjUbxe6J8ZA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

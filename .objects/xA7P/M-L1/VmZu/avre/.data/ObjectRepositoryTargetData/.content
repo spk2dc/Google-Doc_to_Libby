@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="goTiAYy3ZUGkfHwWl8KQVA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://libbyapp.com/search/fairfax/search/scope-deep/query-The%20Brain's%20Way%20of%20Healing%3A%20Remarkable%20Discoveries%20and%20Recoveries%20from%20the%20Frontiers%20of%20Neuroplasticity/page-1/1913752" DesignTimeRectangle="1137, 541, 45, 45" DesignTimeScaleFactor="1.25" FriendlyName="'DIV'" FullSelectorArgument="&lt;webctrl class='tag-plank-circle' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl class='tag-plank-circle' tag='DIV' /&gt;" Guid="9e8c71e9-9a36-40af-a2f2-09530312037c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Libby - The Brain&amp;apos;s Way of Healing' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="839, 605, 209, 30" ElementType="Text" FriendlyName="'Smart Tag: Notify Me'" FullSelectorArgument="&lt;webctrl tag='SPAN' innertext='Smart Tag: Notify Me' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' innertext='Smart Tag: Notify Me' check:text='Smart Tag: Notify Me' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="59b3d28879789f6d8f05599c122e04b2.png" xmlns="">0xnOcdYXrT0ezPBadadfOeg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
