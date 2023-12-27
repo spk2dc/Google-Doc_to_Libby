@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QP9bLQCtr0SUparZBVvGSg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://libbyapp.com/search/fairfax/search/scope-deep/query-Atomic%20Habits%3A%20An%20Easy%20%26%20Proven%20Way%20to%20Build%20Good%20Habits%20%26%20Break%20Bad%20Ones%20by%20James%20Clear/page-1" DesignTimeRectangle="230, 417, 149, 30" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Deep Search'" FullSelectorArgument="&lt;webctrl tag='SPAN' innertext='Deep Search' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='SPAN' innertext='Deep Search' check:text='Deep Search' /&gt;" Guid="d26248a4-b3f9-4484-9ec5-d3aa7564b882" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Libby - Search Results' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="135, 309, 630, 61" ElementType="Text" FriendlyName="'Search Results'" FullSelectorArgument="&lt;webctrl tag='H1' innertext='Search Results' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='H1' innertext='Search Results' check:text='Search Results' /&gt;" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="880434106efb48a0b6ef1398eea6ac7c.png" xmlns="">0_3i4x72c0k2b4lObtb8naQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
