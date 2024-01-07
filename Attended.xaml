@@ -5,7 +5,7 @@
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1839.2,2749.6</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1839.2,3058.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Libby_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -107,19 +107,22 @@
       <AssemblyReference>System.Collections</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Attended" sap:VirtualizedContainerService.HintSize="1849.6,2684.8" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Attended" sap:VirtualizedContainerService.HintSize="1849.6,2993.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Int32" Name="index" />
+    </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="1787.2,2572.8" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[list]">
+    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="[index]" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="1787.2,2881.6" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[list]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="x:String">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:String" Name="currentItem" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1753.6,2384.8" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1753.6,2693.6" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="url" />
             </Sequence.Variables>
@@ -128,29 +131,48 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="site" sap:VirtualizedContainerService.HintSize="1710.4,2295.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Always" ScopeGuid="365d54e9-8e4e-4159-a225-ba98182ff363" Version="V2" WindowResize="Maximize">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="site" sap:VirtualizedContainerService.HintSize="1710.4,2604" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" OpenMode="Always" ScopeGuid="365d54e9-8e4e-4159-a225-ba98182ff363" Version="V2" WindowResize="Maximize">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence sap:VirtualizedContainerService.HintSize="1676.8,2078.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <Sequence sap:VirtualizedContainerService.HintSize="1676.8,2387.2" sap2010:WorkflowViewState.IdRef="Sequence_6">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Assign sap:VirtualizedContainerService.HintSize="1614.4,82.4" sap2010:WorkflowViewState.IdRef="Assign_1">
+                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1614.4,272" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                      <ui:CommentOut.Body>
+                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="496,193.6" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="433.6,81.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">[currentItem]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">[currentItem.Replace(" by.", " by ")]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </ui:CommentOut.Body>
+                    </ui:CommentOut>
+                    <Assign sap:VirtualizedContainerService.HintSize="1614.4,82.4" sap2010:WorkflowViewState.IdRef="Assign_2">
                       <Assign.To>
                         <OutArgument x:TypeArguments="x:String">[currentItem]</OutArgument>
                       </Assign.To>
                       <Assign.Value>
-                        <InArgument x:TypeArguments="x:String">[currentItem.Replace(" by.", " by ")]</InArgument>
+                        <InArgument x:TypeArguments="x:String">[currentItem.Split(" by.")(0)]</InArgument>
                       </Assign.Value>
                     </Assign>
-                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1614.4,144" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[&quot;Searching: &quot;+currentItem.Split(&quot; - &quot;)(0)]" />
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1614.4,144" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[index.ToString+&quot;: &quot;+&quot;Searching: &quot;+currentItem.Split(&quot; - &quot;)(0)]" />
                     <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="1614.4,82.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="[&quot;https://libbyapp.com/search/minuteman/search/query-&quot;+Uri.EscapeDataString(currentItem.Split(&quot; - &quot;)(0))+&quot;/page-1&quot;]" Version="V3" />
-                    <uix:NCheckState DisplayName="Check App State 'no results'" sap:VirtualizedContainerService.HintSize="1614.4,1534.4" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="365d54e9-8e4e-4159-a225-ba98182ff363" Version="V3">
+                    <uix:NCheckState DisplayName="Check App State 'no results'" sap:VirtualizedContainerService.HintSize="1614.4,1532.8" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="365d54e9-8e4e-4159-a225-ba98182ff363" Version="V3">
                       <uix:NCheckState.IfExists>
                         <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,259.2" sap2010:WorkflowViewState.IdRef="Sequence_7">
                           <sap:WorkflowViewStateService.ViewState>
@@ -162,23 +184,23 @@
                         </Sequence>
                       </uix:NCheckState.IfExists>
                       <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="1112,1316" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="1112,1314.4" sap2010:WorkflowViewState.IdRef="Sequence_8">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1049.6,1075.2" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="1049.6,1076.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
                             <ui:CommentOut.Body>
-                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="1014.4,996.8" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                              <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="1014.4,998.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <uix:NCheckState DisplayName="Check App State 'already deep searching'" sap:VirtualizedContainerService.HintSize="952,884.8" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="365d54e9-8e4e-4159-a225-ba98182ff363" Version="V3">
+                                <uix:NCheckState DisplayName="Check App State 'already deep searching'" sap:VirtualizedContainerService.HintSize="952,886.4" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="365d54e9-8e4e-4159-a225-ba98182ff363" Version="V3">
                                   <uix:NCheckState.IfExists>
-                                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,259.2" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,256" sap2010:WorkflowViewState.IdRef="Sequence_10">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -188,7 +210,7 @@
                                     </Sequence>
                                   </uix:NCheckState.IfExists>
                                   <uix:NCheckState.IfNotExists>
-                                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,666.4" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,668" sap2010:WorkflowViewState.IdRef="Sequence_11">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
